@@ -12,7 +12,6 @@ A reimbursement system for a company's employees. Employees can request reimburs
 * CSS
 * HTTP/AJAX
 * JDBC
-* Jackson Data-bind
 * JUnit
 * Log4J
 * Gradle
