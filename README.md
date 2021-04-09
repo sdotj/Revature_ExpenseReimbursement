@@ -7,6 +7,10 @@ A reimbursement system for a company's employees. Employees can request reimburs
 ## Technologies Used
 
 * Java
+* JavaScript
+* HTML
+* CSS
+* HTTP/AJAX
 * JDBC
 * Jackson Data-bind
 * JUnit
