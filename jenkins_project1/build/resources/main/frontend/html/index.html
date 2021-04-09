@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenset | Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>
+      <div id="headerLeft">
+        <img src="logo.png" id = "logoImg">
+        <div id="headertext">
+          <h1>Expenset</h1>
+          <h6><i>All of Your Reimbursements... In One Place</i></h6>
+        </div>  
+      </div>
+      <div id="headerRight"> 
+        <form method="POST" action="http://localhost:9001/api/post/users/redirectToSignUp">
+          <button id="signUp" type="submit">Sign Up</button>
+        </form>
+      </div>
+      <div style="clear: both;"></div>
+    </header>
+    
+    <form method="POST" id="loginform" class="justify-content-center container" action="http://localhost:9001/api/post/users/login">
+        <h3>User Login</h3>
+        <br>
+        <div id="loginInfo"></div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Username</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username" name="username">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+        </div>
+        <!-- <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+        </div> -->
+        <button type="submit" class="btn btn-success" id="button1">Submit</button>
+      </form>
+
+      <script type="text/javascript" src="userLogin.js"></script>
+</body>
+</html>

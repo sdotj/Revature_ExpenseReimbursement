@@ -1,0 +1,106 @@
+#ticketContainer {
+    margin-top: 125px;
+    border: solid;
+    border-radius: 7px;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+#reimbursementTable {
+    background: white;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 7px;
+}
+
+#ticketViewHeader {
+    padding-bottom: 20px;
+}
+
+#titleDiv {
+    float: left;
+}
+
+#logout {
+    background-color: rgb(139, 181, 220);
+    color: white;
+    float: right;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+#userWelcome {
+    float: left;
+    margin-top: -10px;
+}
+
+#newTicketForm {
+    float: right;
+    margin-top: -10px;
+}
+
+#newTicket {
+    background-color: rgb(139, 181, 220);
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: white;
+}
+
+body {
+    background: url(background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#tableLabel {
+    float: left;
+    margin-bottom: 0;
+}
+
+/* #filterLable {
+    padding-right: 10px;
+} */
+
+#tab {
+    float: right;
+    margin-bottom: 5px;
+}
+
+.tablinks {
+    background-color: rgb(139, 181, 220);
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 5px;
+    width: 70px;
+    margin-left: 10px;
+}
+
+#headerLeft {
+    width: 500px;
+    float: left;
+}
+
+#logoImg {
+    width: 75px;
+    height: 75px;
+    margin-top: -50px;
+    display: inline-block;
+}
+
+#headertext {
+    margin-left: 20px;
+    display: inline-block;
+} 
